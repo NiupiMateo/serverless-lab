@@ -153,7 +153,7 @@ const questions = [
       'Cualquier trigger de Azure Functions',
       'Solo eventos de Blob Storage'
     ],
-    answer: 9,
+    answer: 0,
     explanation:
       'La API administrada de Static Web Apps solo admite triggers HTTP. Para temporizadores, colas u otros eventos se necesita una Function App independiente enlazada a la Static Web App.'
   }
