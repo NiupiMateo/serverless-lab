@@ -142,6 +142,20 @@ const questions = [
     answer: 1,
     explanation:
       'Static Web Apps crea un entorno de staging por Pull Request (el plan Free permite unos pocos simultáneos). Al cerrar el PR, el job "close" lo elimina.'
+  },
+  {
+    id: 'q11',
+    concept: 'Triggers',
+    text: '¿Qué tipo de trigger admiten las funciones administradas de Azure Static Web Apps?',
+    options: [
+      'Solo triggers HTTP',
+      'Temporizador y colas de mensajes',
+      'Cualquier trigger de Azure Functions',
+      'Solo eventos de Blob Storage'
+    ],
+    answer: 0,
+    explanation:
+      'La API administrada de Static Web Apps solo admite triggers HTTP. Para temporizadores, colas u otros eventos se necesita una Function App independiente enlazada a la Static Web App.'
   }
 ];
 
